@@ -1,0 +1,31 @@
+body {
+    background-color: rgba(104, 146, 5, 0.699);
+}
+h1 {
+    color: rgb(226, 253, 213);
+    text-align: center;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline rgba(237, 250, 116, 0.795);
+    text-transform: capitalize;
+}
+div {
+    /* Este modifica la etiqueta div */
+    height: auto;
+    width: auto;
+    margin: 10px;
+    padding: 3px;
+}
+.uno {
+    background-image: url(../images/finyjake.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.dos {
+    background-color: rgba(237, 250, 116, 0.795);
+}

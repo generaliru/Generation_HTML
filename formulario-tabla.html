@@ -38,7 +38,7 @@
                 <td>Chilaquiles</td>
                 <td>Omelett</td>
                 <td>Huevos Fritos</td>
-                <td>Ceral</td>
+                <td>Cereal</td>
                 <td rowspan="2">Clases de ingres</td>
             </tr>
             <tr>
@@ -52,11 +52,59 @@
 
         <hr/>
 
-        <form action="">
+        <form method="POST">
             <h3>Registrate</h3>
-            <label for="">Nombre</label>
-            <input type="text"/>
-            <input type="text"/>
+            <p>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" required/>
+            </p>
+            <p>
+                <label for="email">Correo Electrónico</label>
+                <input type="email" name="email" required/>
+            </p>
+            <p>
+                <label for="cumpleanios">Cumpleaños</label>
+                <input type="date" name="cumpleanios"/>
+            </p>
+            <p>
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" required/>
+            </p>
+            <p>
+                <label for="altura">Altura</label>
+                <input type="range" name="altura" min="9" max="100" step="1" />
+            </p>
+            <p>
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" required/>
+            </p>
+            <p>
+                <select name="sexo" id="">
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                    <option value="indistinto">Indistinto</option>
+                </select>
+            </p>
+            <p>
+                <input type="checkbox"/>
+                <label for="">Opción 1</label>
+            </p>
+            <p>
+                <input type="radio" name="color" value="rojo"/>
+                <label for="color">Rojo</label>
+                <input type="radio" name="color" value="verde"/>
+                <label for="color">Verde</label>
+                <input type="radio" name="color" value="Amarillo"/>
+                <label for="color">Amarillo</label>
+                <input type="radio" name="color" value="azul"/>
+                <label for="color">Azul</label>
+                <input type="radio" name="color" value="naranja"/>
+                <label for="color">Naranja</label>
+            </p>
+            <p>
+                <textarea name="muchotexto" id="" cols="150" rows="200"></textarea>
+            </p>
+            <input type="submit" value="Resgistrar">
         </form>
     </body>
 </html>

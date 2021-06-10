@@ -1,0 +1,15 @@
+.box {
+    width: 400px;
+    height: 400px;
+}
+.one {
+    background-color: #fafa31;
+    margin-bottom: 10px;
+    border: 5px solid #000;
+    border-radius: 0 50% 0 50%;
+}
+
+.two {
+    background-color: #22b822;
+    border-radius: 50%;
+}
